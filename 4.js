@@ -10,7 +10,6 @@ var tr = through(
         this.queue(null);
     }
 );
-//console.log(process.argv);
 
 process.stdin.pipe(tr).pipe(process.stdout);
 
